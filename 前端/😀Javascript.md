@@ -1,0 +1,15 @@
+# 基础
+[[认识Javascript]]  [[运算符]]  [[语句]]  [[数组]]  [[函数]]  [[对象]] [[内置对象]] [[DOM]]  [[事件高级]]  [[BOM]]  [[PC端网页特效]]
+
+
+# 高级？
+[[Promise]]  [[ES6]]  [[正则表达式]]  [[类和对象]]  [[构造函数和原型]] [[函数进阶]] 
+
+# node.js
+[[node.js]]  [[node.js模块化]]  [[fs模块]]  [[HTTP]]  [[包管理工具]] [[http模块]] [[buffer(缓冲区)]]
+
+
+# 补充
+[[rest参数]]  [[数组方法]]  [[var const let]]  [[localSotrage]] 
+[[express]]  [[axios]] 
+ 
