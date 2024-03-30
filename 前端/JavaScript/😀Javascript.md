@@ -12,6 +12,10 @@
 # 补充
 [[rest参数]]  [[数组方法]]  [[var const let]]  [[localSotrage]] 
 [[express]]  [[axios]]   [[扩展运算符(Spread Operator)]] 
+[[网络请求（前端版）]] 
 
 # Vue2
 [[基础属性]]  [[生命周期]]  [[插槽]]  [[Vuex]]  [[组件通信]]  [[自定义指令]]  [[scoped样式冲突]] [[mixins]]  [[VueRouter]]   [[工程化开发和脚手架]] 
+
+# Vue3
+[[Vue3]]  [[新特性]]  [[Pinia]]  [[组合式API]]
