@@ -18,6 +18,7 @@ document.getElementsByClassName('类名'); //根据类名返回
 document.querySelector('选择器')；  //根据指定选择器返回第一个元素对象
 ducument.querySelectorAll('选择器')； //返回指定选择器所有元素对象集合
 ```
+[[className和classList]]
 ## 获取body和html元素
 ### body
 document.body;
