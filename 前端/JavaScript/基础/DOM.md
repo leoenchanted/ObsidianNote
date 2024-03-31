@@ -50,6 +50,8 @@ btn.onclick = function(){
 innerHTML可以识别html标签
 ## 常用元素的属性操作
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/33778458/1673082367097-7b8f7b76-7f56-4668-a953-53fdd5cf970d.png#averageHue=%23e1ecfb&clientId=u52069fc6-50a3-4&from=paste&height=156&id=u5f7190ad&originHeight=125&originWidth=410&originalType=binary&ratio=1&rotation=0&showTitle=false&size=8965&status=done&style=none&taskId=uc717cf1e-e6fa-4fc9-a167-93a2414b1bf&title=&width=512.5686340332031)
+[[innerText、innerHTML、textContent]]
+
 ## 表单元素的属性操作
 操作如下表单元素：  type、value、checked、selected、disabled
 ## 样式属性操作
