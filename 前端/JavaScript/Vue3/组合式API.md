@@ -18,18 +18,6 @@ setup比beforeCreate这个生命钩子还要早
 2. template中，.value不需要加
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/33778458/1697531774271-0cebfa63-d575-44a2-a32f-844c12e7fd56.png#averageHue=%2320201f&clientId=u75f1b53b-6439-4&from=paste&height=346&id=u07b11710&originHeight=441&originWidth=730&originalType=binary&ratio=1.274999976158142&rotation=0&showTitle=false&size=171513&status=done&style=none&taskId=u06e636d7-039f-461a-9647-10d18db1dc7&title=&width=572.5490303142217)
-### ref()
-
-接受简单类型或复杂类型的 数据，返回一个响应式对象
-
-==本质：==是在原有传入数据的基础上，外层包了一层对象，包成了复杂类型。之后再借助reactive实现的响应式。
-
-==注意点：==
-
-1. 脚本中访问数据用过.value
-2. template中，.value不需要加
-
-![](https://cdn.nlark.com/yuque/0/2023/png/33778458/1697531774271-0cebfa63-d575-44a2-a32f-844c12e7fd56.png)
 
 ### toRefs()
 
@@ -41,7 +29,7 @@ setup比beforeCreate这个生命钩子还要早
 
 - **创建响应式引用**：toRefs 接受一个响应式对象，并返回一个新对象，新对象的每个属性都是一个响应式引用，即 ref 对象。
 - **保持响应性**：使用 toRefs 转换后的响应式引用可以在非响应式上下文中使用，同时保持其响应性。
-- **避免响应式属性丢失**：在某些情况下，如将响应式对象作为函数参数传递时，直接解构的属性可能会丢失响应性。toRefs 可以确保即使在这种情况下，属性也保持响应性。
+- **避免响应式属性丢失**：在某些情况下，如将响应式对象作为函数参数传递时，==直接解构的属性可能会丢失响应性==。toRefs 可以确保即使在这种情况下，属性也保持响应性。
 ### 总结
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/33778458/1697531799947-39f3f0a2-b89e-4dc2-92a7-26061d23097f.png#averageHue=%23f6f2f2&clientId=u75f1b53b-6439-4&from=paste&height=518&id=ueeeaa828&originHeight=661&originWidth=1040&originalType=binary&ratio=1.274999976158142&rotation=0&showTitle=false&size=289090&status=done&style=none&taskId=u9985148c-aac1-40f8-a52c-ae920dc37ee&title=&width=815.6862897627268)
 ## computed
