@@ -19,3 +19,6 @@
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/33778458/1688404783855-ea6c7cd4-9dfb-4aa3-b5a9-4670c81d068c.png#averageHue=%236d9f6c&clientId=u19314100-b26f-4&from=paste&height=613&id=ub21b4ce2&originHeight=782&originWidth=1534&originalType=binary&ratio=1.274999976158142&rotation=0&showTitle=false&size=69360&status=done&style=none&taskId=ub39da2f0-ee3b-48ca-a77f-bf86de856b6&title=&width=1203.137277400022)
 这个选的是ul下的子元素li的第一个
+# :not(:last-child)
+
+选择父元素除了最后一个子元素的其他子元素
