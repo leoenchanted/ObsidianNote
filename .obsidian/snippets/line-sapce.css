@@ -1,3 +1,10 @@
-body{
--line-height-normal:  200%;
+body {
+    /* 这里的变量专门控制笔记内容的行高 */
+    --line-height-normal: 2; 
+    
+    /* 也可以顺便调整段落间距的变量 */
+    --p-spacing: 1.2rem;
+    
+    /* 调整列表项的行高 */
+    --list-line-height: 1.6;
 }
