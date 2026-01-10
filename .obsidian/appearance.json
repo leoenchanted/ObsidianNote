@@ -1,1 +1,9 @@
-{}
+{
+  "interfaceFontFamily": "Poppins",
+  "textFontFamily": "Poppins",
+  "monospaceFontFamily": "Bell MT",
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "line-sapce"
+  ]
+}
