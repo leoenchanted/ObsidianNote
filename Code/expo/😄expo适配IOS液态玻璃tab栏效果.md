@@ -51,4 +51,4 @@ export default function TabLayout() {
 主要是导入 'expo-router' 包的NativeTabs
 图标库用的是苹果的sf Symbols
 
-然后适配安卓用P'l'a'r
+然后适配安卓用Platform.OS 去做判断
