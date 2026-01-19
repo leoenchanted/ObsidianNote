@@ -11,37 +11,21 @@ export default function TabLayout() {
         <NativeTabs.Trigger name="index">
           <Label>首页</Label>
           <Icon sf={{ default: "house", selected: "house.fill" }}></Icon>
-
         </NativeTabs.Trigger>
-
         <NativeTabs.Trigger name="vibewall">
-
           <Label>VibeWall</Label>
-
           <Icon sf={{ default: "photo" }}></Icon>
-
         </NativeTabs.Trigger>
-
         <NativeTabs.Trigger name="tools">
-
           <Label>工具</Label>
-
           <Icon sf={{ default: "ruler" }}></Icon>
-
         </NativeTabs.Trigger>
-
         <NativeTabs.Trigger name="settings">
-
           <Label>设置</Label>
-
           <Icon sf={{ default: "gear" }}></Icon>
-
         </NativeTabs.Trigger>
-
       </NativeTabs>
-
     );
-
   }
   return (
     <Tabs
@@ -63,3 +47,8 @@ export default function TabLayout() {
   );
 }
 ```
+
+主要是导入 'expo-router' 包的NativeTabs
+图标库用的是苹果的sf Symbols
+
+然后适配安卓用P'l'a'r
