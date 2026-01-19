@@ -1,7 +1,7 @@
 {
   "interfaceFontFamily": "Poppins",
   "textFontFamily": "Poppins",
-  "monospaceFontFamily": "Bell MT",
+  "monospaceFontFamily": "苹方",
   "baseFontSize": 14,
   "enabledCssSnippets": [
     "line-sapce"
